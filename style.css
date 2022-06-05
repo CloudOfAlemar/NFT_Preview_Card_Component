@@ -1,0 +1,131 @@
+
+/* =========================================================== */
+/* Base Styles */
+/* =========================================================== */
+
+html {
+  font-family: 'Outfit', sans-serif;
+  font-size: .625rem;
+}
+
+/* =========================================================== */
+/* Group Styles */
+/* =========================================================== */
+
+/* Box Sizing */
+.main-content,
+.nft-component {
+  box-sizing: border-box;
+}
+
+/* Padding */
+.main-content,
+.nft-component {
+  padding: 2rem;
+}
+
+/* Margin */
+.etherium-icon,
+.timer-icon {
+  margin-right: .5rem;
+}
+
+body,
+.component-heading,
+.component-description {
+  margin: 0;
+}
+
+.equilibrium-image,
+.component-heading,
+.component-description,
+.component-details {
+  margin-bottom: 2rem;
+}
+
+/* Font Size */
+.component-description,
+.component-details,
+.component-credits,
+.attribution {
+  font-size: 1.4rem;
+}
+
+/* Border Radius */
+.nft-component,
+.equilibrium-image {
+  border-radius: 10px;
+}
+
+/* Color */
+.component-heading,
+.component-credits,
+.attribution {
+  color: hsl(0, 0%, 100%);
+}
+
+.component-description,
+.timer-detail,
+.alt-color,
+.attribution-link {
+  color: hsl(215, 51%, 70%);
+}
+
+/* Flex */
+.etherium-detail,
+.timer-detail,
+.component-credits {
+  display: flex;
+  align-items: center;
+}
+
+/* =========================================================== */
+/* Main Content Styles */
+/* =========================================================== */
+
+.main-content {
+  background-color: hsl(217, 54%, 11%);
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft-component {
+  background-color: hsl(216, 50%, 16%);
+  max-width: 320px;
+  margin-bottom: 25px;
+}
+
+.equilibrium-image {
+  width: 100%;
+}
+
+.component-heading {
+  font-size: 2rem;
+}
+
+.component-details {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+.etherium-detail {
+  color: hsl(178, 100%, 50%);
+}
+
+.profile-view {
+  width: 25px;
+  height: 25px;
+  margin-right: 1.5rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.attribution {
+  text-align: center;
+}
